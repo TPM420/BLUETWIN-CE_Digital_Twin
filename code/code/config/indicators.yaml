@@ -1,0 +1,335 @@
+x11:
+  name: "Multigenerational households"
+  layer_id: "L1"
+  direction: "positive"
+  weight: 0.24
+  min_value: 0.0
+  max_value: 1.0
+
+x12:
+  name: "Population 65+"
+  layer_id: "L1"
+  direction: "positive"
+  weight: 0.10
+  min_value: 0.0
+  max_value: 1.0
+
+x13:
+  name: "Old age dependency"
+  layer_id: "L1"
+  direction: "negative"
+  weight: 0.14
+  min_value: 0.0
+  max_value: 2.0
+
+x14:
+  name: "Single-person elderly households"
+  layer_id: "L1"
+  direction: "negative"
+  weight: 0.18
+  min_value: 0.0
+  max_value: 1.0
+
+x15:
+  name: "Demographic stability"
+  layer_id: "L1"
+  direction: "positive"
+  weight: 0.10
+  min_value: -0.2
+  max_value: 0.2
+
+x16:
+  name: "Older adults living near family"
+  layer_id: "L1"
+  direction: "positive"
+  weight: 0.24
+  min_value: 0.0
+  max_value: 1.0
+
+x21:
+  name: "Chronic disease prevalence"
+  layer_id: "L2"
+  direction: "negative"
+  weight: 0.24
+  min_value: 0.0
+  max_value: 1.0
+
+x22:
+  name: "Mental distress prevalence"
+  layer_id: "L2"
+  direction: "negative"
+  weight: 0.18
+  min_value: 0.0
+  max_value: 1.0
+
+x23:
+  name: "Physically active population share"
+  layer_id: "L2"
+  direction: "positive"
+  weight: 0.22
+  min_value: 0.0
+  max_value: 1.0
+
+x24:
+  name: "Obesity prevalence"
+  layer_id: "L2"
+  direction: "negative"
+  weight: 0.16
+  min_value: 0.0
+  max_value: 1.0
+
+x25:
+  name: "Preventive healthcare usage"
+  layer_id: "L2"
+  direction: "positive"
+  weight: 0.08
+  min_value: 0.0
+  max_value: 1.0
+
+x26:
+  name: "Self-rated well-being"
+  layer_id: "L2"
+  direction: "positive"
+  weight: 0.12
+  min_value: 0.0
+  max_value: 10.0
+
+x31:
+  name: "Healthy local food availability"
+  layer_id: "L3"
+  direction: "positive"
+  weight: 0.22
+  min_value: 0.0
+  max_value: 1.0
+
+x32:
+  name: "Healthy food affordability"
+  layer_id: "L3"
+  direction: "positive"
+  weight: 0.16
+  min_value: 0.0
+  max_value: 1.0
+
+x33:
+  name: "Plant-oriented diet prevalence"
+  layer_id: "L3"
+  direction: "positive"
+  weight: 0.24
+  min_value: 0.0
+  max_value: 1.0
+
+x34:
+  name: "Overeating / poor dietary control"
+  layer_id: "L3"
+  direction: "negative"
+  weight: 0.16
+  min_value: 0.0
+  max_value: 1.0
+
+x35:
+  name: "Nutritional vulnerability"
+  layer_id: "L3"
+  direction: "negative"
+  weight: 0.08
+  min_value: 0.0
+  max_value: 1.0
+
+x36:
+  name: "Spatial access to healthy food"
+  layer_id: "L3"
+  direction: "positive"
+  weight: 0.14
+  min_value: 0.0
+  max_value: 1.0
+
+x41:
+  name: "Green space per capita"
+  layer_id: "L4"
+  direction: "positive"
+  weight: 0.24
+  min_value: 0.0
+  max_value: 100.0
+
+x42:
+  name: "Walking/recreation path density"
+  layer_id: "L4"
+  direction: "positive"
+  weight: 0.22
+  min_value: 0.0
+  max_value: 50.0
+
+x43:
+  name: "Access to nature"
+  layer_id: "L4"
+  direction: "positive"
+  weight: 0.18
+  min_value: 0.0
+  max_value: 1.0
+
+x44:
+  name: "Air quality"
+  layer_id: "L4"
+  direction: "positive"
+  weight: 0.14
+  min_value: 0.0
+  max_value: 100.0
+
+x45:
+  name: "Water quality"
+  layer_id: "L4"
+  direction: "positive"
+  weight: 0.12
+  min_value: 0.0
+  max_value: 100.0
+
+x46:
+  name: "Outdoor safety and comfort"
+  layer_id: "L4"
+  direction: "positive"
+  weight: 0.10
+  min_value: 0.0
+  max_value: 1.0
+
+x51:
+  name: "Community participation"
+  layer_id: "L5"
+  direction: "positive"
+  weight: 0.18
+  min_value: 0.0
+  max_value: 1.0
+
+x52:
+  name: "Social isolation"
+  layer_id: "L5"
+  direction: "negative"
+  weight: 0.20
+  min_value: 0.0
+  max_value: 1.0
+
+x53:
+  name: "Sense of belonging"
+  layer_id: "L5"
+  direction: "positive"
+  weight: 0.20
+  min_value: 0.0
+  max_value: 10.0
+
+x54:
+  name: "Stress / burnout"
+  layer_id: "L5"
+  direction: "negative"
+  weight: 0.14
+  min_value: 0.0
+  max_value: 1.0
+
+x55:
+  name: "Support service availability"
+  layer_id: "L5"
+  direction: "positive"
+  weight: 0.10
+  min_value: 0.0
+  max_value: 1.0
+
+x56:
+  name: "Informal social contact frequency"
+  layer_id: "L5"
+  direction: "positive"
+  weight: 0.18
+  min_value: 0.0
+  max_value: 1.0
+
+x61:
+  name: "Walkability index"
+  layer_id: "L6"
+  direction: "positive"
+  weight: 0.24
+  min_value: 0.0
+  max_value: 100.0
+
+x62:
+  name: "Cycling infrastructure density"
+  layer_id: "L6"
+  direction: "positive"
+  weight: 0.12
+  min_value: 0.0
+  max_value: 50.0
+
+x63:
+  name: "Public transport accessibility"
+  layer_id: "L6"
+  direction: "positive"
+  weight: 0.14
+  min_value: 0.0
+  max_value: 1.0
+
+x64:
+  name: "Walking access to services"
+  layer_id: "L6"
+  direction: "positive"
+  weight: 0.20
+  min_value: 0.0
+  max_value: 1.0
+
+x65:
+  name: "Accessibility for older/vulnerable groups"
+  layer_id: "L6"
+  direction: "positive"
+  weight: 0.18
+  min_value: 0.0
+  max_value: 1.0
+
+x66:
+  name: "Safe active mobility routes share"
+  layer_id: "L6"
+  direction: "positive"
+  weight: 0.12
+  min_value: 0.0
+  max_value: 1.0
+
+x71:
+  name: "Local healthy food economy strength"
+  layer_id: "L7"
+  direction: "positive"
+  weight: 0.16
+  min_value: 0.0
+  max_value: 1.0
+
+x72:
+  name: "Availability of local providers/services"
+  layer_id: "L7"
+  direction: "positive"
+  weight: 0.18
+  min_value: 0.0
+  max_value: 1.0
+
+x73:
+  name: "Public investment in health/well-being"
+  layer_id: "L7"
+  direction: "positive"
+  weight: 0.12
+  min_value: 0.0
+  max_value: 10000.0
+
+x74:
+  name: "Healthy living programs availability"
+  layer_id: "L7"
+  direction: "positive"
+  weight: 0.20
+  min_value: 0.0
+  max_value: 1.0
+
+x75:
+  name: "Community infrastructure availability"
+  layer_id: "L7"
+  direction: "positive"
+  weight: 0.20
+  min_value: 0.0
+  max_value: 1.0
+
+x76:
+  name: "Affordability of essential services"
+  layer_id: "L7"
+  direction: "positive"
+  weight: 0.14
+  min_value: 0.0
+  max_value: 1.0

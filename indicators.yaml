@@ -1,0 +1,301 @@
+# config/indicators.yaml
+#
+# Definicija 42 aktivnih indikatorjev BLUETWIN-CE modela.
+# Vir: Priloga A dokumenta
+#   "NOVA_BLUETWIN-CE_Navodila_za_razvoj_Digital_Twin_aplikacije_Svidnik.docx"
+# Ta datoteka je rekonstruirana iz Priloge A (tabela je tam eksplicitno
+# označena kot "povzeta iz aktivnih indicators.yaml in layers.yaml").
+# Nobena vrednost (weight, direction, min/max) ni izmišljena ali spremenjena
+# glede na dokument - gre za dobeseden prepis v strojno berljivo obliko.
+#
+# Polja:
+#   id        - identifikator indikatorja (uporabljen v raw_values in pilot YAML)
+#   name      - ime indikatorja (EN, kot v dokumentu)
+#   layer     - podatkovni sloj L1-L7, kateremu indikator pripada
+#   direction - "positive": višja normalizirana vrednost = boljše stanje
+#               "negative": višja normalizirana vrednost = slabše stanje
+#               (normalization.py mora smer obrniti pri "negative")
+#   weight    - utež indikatorja znotraj svojega sloja (layer_scoring.py)
+#   min_value / max_value - meje za min-max normalizacijo na 0-1
+
+layers:
+
+  L1:
+    name: "Demographics"
+    indicators:
+      - id: x11
+        name: "Multigenerational households"
+        direction: positive
+        weight: 0.24
+        min_value: 0.0
+        max_value: 1.0
+      - id: x12
+        name: "Population 65+"
+        direction: positive
+        weight: 0.10
+        min_value: 0.0
+        max_value: 1.0
+      - id: x13
+        name: "Old age dependency"
+        direction: negative
+        weight: 0.14
+        min_value: 0.0
+        max_value: 2.0
+      - id: x14
+        name: "Single-person elderly households"
+        direction: negative
+        weight: 0.18
+        min_value: 0.0
+        max_value: 1.0
+      - id: x15
+        name: "Demographic stability"
+        direction: positive
+        weight: 0.10
+        min_value: -0.2
+        max_value: 0.2
+      - id: x16
+        name: "Older adults living near family"
+        direction: positive
+        weight: 0.24
+        min_value: 0.0
+        max_value: 1.0
+
+  L2:
+    name: "Health & wellbeing"
+    indicators:
+      - id: x21
+        name: "Chronic disease prevalence"
+        direction: negative
+        weight: 0.24
+        min_value: 0.0
+        max_value: 1.0
+      - id: x22
+        name: "Mental distress prevalence"
+        direction: negative
+        weight: 0.18
+        min_value: 0.0
+        max_value: 1.0
+      - id: x23
+        name: "Physically active population share"
+        direction: positive
+        weight: 0.22
+        min_value: 0.0
+        max_value: 1.0
+      - id: x24
+        name: "Obesity prevalence"
+        direction: negative
+        weight: 0.16
+        min_value: 0.0
+        max_value: 1.0
+      - id: x25
+        name: "Preventive healthcare usage"
+        direction: positive
+        weight: 0.08
+        min_value: 0.0
+        max_value: 1.0
+      - id: x26
+        name: "Self-rated well-being"
+        direction: positive
+        weight: 0.12
+        min_value: 0.0
+        max_value: 10.0
+
+  L3:
+    name: "Nutritional access"
+    indicators:
+      - id: x31
+        name: "Healthy local food availability"
+        direction: positive
+        weight: 0.22
+        min_value: 0.0
+        max_value: 1.0
+      - id: x32
+        name: "Healthy food affordability"
+        direction: positive
+        weight: 0.16
+        min_value: 0.0
+        max_value: 1.0
+      - id: x33
+        name: "Plant-oriented diet prevalence"
+        direction: positive
+        weight: 0.24
+        min_value: 0.0
+        max_value: 1.0
+      - id: x34
+        name: "Overeating / poor dietary control"
+        direction: negative
+        weight: 0.16
+        min_value: 0.0
+        max_value: 1.0
+      - id: x35
+        name: "Nutritional vulnerability"
+        direction: negative
+        weight: 0.08
+        min_value: 0.0
+        max_value: 1.0
+      - id: x36
+        name: "Spatial access to healthy food"
+        direction: positive
+        weight: 0.14
+        min_value: 0.0
+        max_value: 1.0
+
+  L4:
+    name: "Physical environment"
+    indicators:
+      - id: x41
+        name: "Green space per capita"
+        direction: positive
+        weight: 0.24
+        min_value: 0.0
+        max_value: 100.0
+      - id: x42
+        name: "Walking/recreation path density"
+        direction: positive
+        weight: 0.22
+        min_value: 0.0
+        max_value: 50.0
+      - id: x43
+        name: "Access to nature"
+        direction: positive
+        weight: 0.18
+        min_value: 0.0
+        max_value: 1.0
+      - id: x44
+        name: "Air quality"
+        direction: positive
+        weight: 0.14
+        min_value: 0.0
+        max_value: 100.0
+      - id: x45
+        name: "Water quality"
+        direction: positive
+        weight: 0.12
+        min_value: 0.0
+        max_value: 100.0
+      - id: x46
+        name: "Outdoor safety and comfort"
+        direction: positive
+        weight: 0.10
+        min_value: 0.0
+        max_value: 1.0
+
+  L5:
+    name: "Social & community"
+    indicators:
+      - id: x51
+        name: "Community participation"
+        direction: positive
+        weight: 0.18
+        min_value: 0.0
+        max_value: 1.0
+      - id: x52
+        name: "Social isolation"
+        direction: negative
+        weight: 0.20
+        min_value: 0.0
+        max_value: 1.0
+      - id: x53
+        name: "Sense of belonging"
+        direction: positive
+        weight: 0.20
+        min_value: 0.0
+        max_value: 10.0
+      - id: x54
+        name: "Stress / burnout"
+        direction: negative
+        weight: 0.14
+        min_value: 0.0
+        max_value: 1.0
+      - id: x55
+        name: "Support service availability"
+        direction: positive
+        weight: 0.10
+        min_value: 0.0
+        max_value: 1.0
+      - id: x56
+        name: "Informal social contact frequency"
+        direction: positive
+        weight: 0.18
+        min_value: 0.0
+        max_value: 1.0
+
+  L6:
+    name: "Mobility & accessibility"
+    indicators:
+      - id: x61
+        name: "Walkability index"
+        direction: positive
+        weight: 0.24
+        min_value: 0.0
+        max_value: 100.0
+      - id: x62
+        name: "Cycling infrastructure density"
+        direction: positive
+        weight: 0.12
+        min_value: 0.0
+        max_value: 50.0
+      - id: x63
+        name: "Public transport accessibility"
+        direction: positive
+        weight: 0.14
+        min_value: 0.0
+        max_value: 1.0
+      - id: x64
+        name: "Walking access to services"
+        direction: positive
+        weight: 0.20
+        min_value: 0.0
+        max_value: 1.0
+      - id: x65
+        name: "Accessibility for older/vulnerable groups"
+        direction: positive
+        weight: 0.18
+        min_value: 0.0
+        max_value: 1.0
+      - id: x66
+        name: "Safe active mobility routes share"
+        direction: positive
+        weight: 0.12
+        min_value: 0.0
+        max_value: 1.0
+
+  L7:
+    name: "Economic & services"
+    indicators:
+      - id: x71
+        name: "Local healthy food economy strength"
+        direction: positive
+        weight: 0.16
+        min_value: 0.0
+        max_value: 1.0
+      - id: x72
+        name: "Availability of local providers/services"
+        direction: positive
+        weight: 0.18
+        min_value: 0.0
+        max_value: 1.0
+      - id: x73
+        name: "Public investment in health/well-being"
+        direction: positive
+        weight: 0.12
+        min_value: 0.0
+        max_value: 10000.0
+      - id: x74
+        name: "Healthy living programs availability"
+        direction: positive
+        weight: 0.20
+        min_value: 0.0
+        max_value: 1.0
+      - id: x75
+        name: "Community infrastructure availability"
+        direction: positive
+        weight: 0.20
+        min_value: 0.0
+        max_value: 1.0
+      - id: x76
+        name: "Affordability of essential services"
+        direction: positive
+        weight: 0.14
+        min_value: 0.0
+        max_value: 1.0

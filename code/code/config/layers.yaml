@@ -1,0 +1,27 @@
+L1:
+  name: "Demographic Data"
+  indicator_ids: ["x11", "x12", "x13", "x14", "x15", "x16"]
+
+L2:
+  name: "Health & Well-Being Metrics"
+  indicator_ids: ["x21", "x22", "x23", "x24", "x25", "x26"]
+
+L3:
+  name: "Nutritional Access & Patterns"
+  indicator_ids: ["x31", "x32", "x33", "x34", "x35", "x36"]
+
+L4:
+  name: "Physical Environment"
+  indicator_ids: ["x41", "x42", "x43", "x44", "x45", "x46"]
+
+L5:
+  name: "Social & Community Dynamics"
+  indicator_ids: ["x51", "x52", "x53", "x54", "x55", "x56"]
+
+L6:
+  name: "Mobility & Accessibility"
+  indicator_ids: ["x61", "x62", "x63", "x64", "x65", "x66"]
+
+L7:
+  name: "Economic & Local Resource Factors"
+  indicator_ids: ["x71", "x72", "x73", "x74", "x75", "x76"]

@@ -1,0 +1,43 @@
+:root {
+  --bg: #0A0D10;
+  --surface: #12161B;
+  --surface-2: #171C22;
+  --border: #242B34;
+
+  --text: #E9ECF1;
+  --text-muted: #9BA5B2;
+  --text-faint: #6B7684;
+
+  --accent: #3DD9B4;
+  --accent-soft: rgba(61, 217, 180, 0.14);
+
+  --warn: #F2B544;
+  --warn-soft: rgba(242, 181, 68, 0.14);
+
+  color-scheme: dark;
+}
+
+  #social .button-icon {
+    filter: invert(1) brightness(2);
+  }
+
+#root {
+  min-height: 100svh;
+}
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, sans-serif;
+  }
+
+  h1,h2,h3 {
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+
+  p {
+    margin: 0;
+  }

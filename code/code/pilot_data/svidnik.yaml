@@ -1,0 +1,203 @@
+# pilot_data/svidnik.yaml
+#
+# Pilotni podatki za Svidník (Naloga 2, BLUETWIN-CE).
+# Vrednosti so ze pretvorjene v enote, ki ustrezajo config/indicators.yaml
+# (min_value/max_value), kot zahteva razdelek 4.2 navodil.
+#
+# mapping_type: exact | proxy | derived | unmapped
+# quality:      official | national_proxy | estimated | needs_review | corrected | missing
+
+code: "svidnik"
+name: "Svidník (Slovakia) - BLUETWIN-CE pilot"
+data_version: "2026-09-18"
+
+indicators:
+
+  x12:
+    value: 0.2489
+    unit: "fraction (0-1)"
+    year: 2025
+    source: "Statistical Office SR (om7006rr)"
+    mapping_type: exact
+    quality: official
+    note: "Delez prebivalcev 65+ / celotno prebivalstvo. Original: 24.89% -> deljeno s 100 za model (fraction 0-1)."
+
+  x13:
+    value: 0.389
+    unit: "ratio (0-2)"
+    year: 2025
+    source: "Statistical Office SR (om7006rr: 65+ / 15-64 x 100)"
+    mapping_type: exact
+    quality: official
+    note: "Old age dependency ratio. Original: 38.9 (na 100) -> deljeno s 100, da ustreza modelnemu razponu 0-2."
+
+  x14:
+    value: 0.38
+    unit: "fraction (0-1)"
+    year: 2023
+    source: "KPSS Svidník 2023-2030, kap.7.1 - anketa med obcani (207 anketirancev, 57.97% upokojencev)"
+    mapping_type: proxy
+    quality: needs_review
+    note: >
+      Uradno ime indikatorja je 'Single-person elderly households' (glej indicators.yaml) - torej
+      posebej za starejse. Uporabljena je vrednost iz KPSS ankete med obcani ('38% zivi v
+      enoclanskih gospodinjstvih'), ker je anketirana skupina vecinoma upokojenci (57.97%),
+      torej vsebinsko blizje 'elderly' kot alternativa spodaj.
+      ALTERNATIVA (ni uporabljena kot glavna vrednost): Population census 2021 za okraj Svidnik
+      navaja 1863 enoclanskih gospodinjstev od skupno 11492 gospodinjstev (VSE starosti) = 0.1621.
+      Ni uporabljena, ker ni starostno omejena. Obe vrednosti sta proxy, ne exact.
+
+  x15:
+    value: -0.1585
+    unit: "fraction (-0.2 to 0.2)"
+    year: 2025
+    source: "Statistical Office SR (om7006rr) - casovna vrsta prebivalstva Svidnik 1996-2025"
+    mapping_type: derived
+    quality: official
+    note: >
+      Formula: (prebivalstvo_2025 - prebivalstvo_2015) / prebivalstvo_2015
+      = (9500 - 11289) / 11289 = -0.1585 (10-letna sprememba stevila prebivalcev).
+      Zamenjuje prejsnji proxy 'stevilo rojstev/leto', ki ni bil prava mera stabilnosti.
+
+  x21:
+    value: 0.0012
+    unit: "fraction (0-1)"
+    year: 2025
+    source: "Statistical Office SR (om7036rr)"
+    mapping_type: proxy
+    quality: corrected
+    note: >
+      En vzrok smrti (cardiovascular mortality, 1.2 na 1000 prebivalcev) kot proxy za sirso
+      kronicnost. Original: 1.2 (na 1000) -> deljeno z 1000 za model (fraction 0-1).
+      Opozorilo: mortaliteta je konceptualno ozji kazalnik od 'prevalence', zato je to samo proxy.
+      Dodatna proxy vira (nista uporabljena): Recipients of medication for diabetes (47.57,
+      needs unit clarification), Recipients of medication for high blood pressure (253936,
+      absolutno stevilo, sumljivo - verjetno regijsko).
+
+  x24:
+    value: 0.587
+    unit: "fraction (0-1)"
+    year: 2019
+    source: "European Commission / Eurostat"
+    mapping_type: proxy
+    quality: national_proxy
+    note: "Nacionalna (SK) vrednost, ne Svidnik-specificna. Original: 58.7% -> deljeno s 100."
+
+  x26:
+    value: null
+    unit: "scale (0-10)"
+    year: null
+    source: null
+    mapping_type: unmapped
+    quality: missing
+    note: >
+      Model pricakuje 'Self-rated well-being' na lestvici 0-10 (npr. life satisfaction score).
+      Edini razpolozljiv podatek je 'Self-rated good health' 68.2% (Eurostat hlth_silc_01,
+      nacionalna vrednost) - to je popolnoma druga merska lestvica (delez ljudi, ne ocena 0-10),
+      zato pretvorba ni mozna brez izmisljanja. Ostaja null do najdbe primernega vira.
+
+  x31:
+    value: null
+    unit: "fraction (0-1)"
+    year: null
+    source: null
+    mapping_type: unmapped
+    quality: missing
+    note: >
+      Razpolozljiv podatek: 8 trznic/lokalnih pridelovalcev (City of Svidnik / field mapping,
+      2026) - absolutno stevilo brez referencne vrednosti za normiranje na 0-1. Ostaja null.
+
+  x36:
+    value: null
+    unit: "fraction (0-1)"
+    year: null
+    source: null
+    mapping_type: unmapped
+    quality: missing
+    note: >
+      Razpolozljiv podatek je zgolj opisen (Field observation): center mesta dobro pokrit,
+      obrobna obmocja (Sidlisko) 500-800m od najblizje trgovine. Brez jasne pretvorbene
+      lestvice v stevilko ostaja null.
+
+  x41:
+    value: null
+    unit: "m2/person"
+    year: null
+    source: null
+    mapping_type: unmapped
+    quality: missing
+    note: "Uradna m2/capita vrednost ni na voljo (samo kvalitativna ocena 'nadpovprecno za slovaski kraj')."
+
+  x43:
+    value: 0.8
+    unit: "fraction (0-1)"
+    year: 2026
+    source: "Field assessment / City of Svidník (Book3.xlsx inventory)"
+    mapping_type: proxy
+    quality: estimated
+    note: >
+      Prejsnja vrednost "5" (dvoumna enota '% or index') zavrzena. Namesto tega uporabljena
+      kvalitativna ocena "Good" iz terenskega popisa (Agatovy haj park za starejse, promenada
+      ob reki Ondava, novo vecnamensko sportno igrisce, tekaska steza, obnovljen bazen).
+      Pretvorbena lestvica (subjektivna, dokumentirana): Slabo=0.2 / Srednje=0.5 / Dobro=0.8.
+      "Good" -> 0.8. Mapping_type proxy, quality estimated, ker gre za subjektivno oceno,
+      ne izmerjeno stevilko.
+
+  x44:
+    value: 0.0
+    unit: "scale (0-100, higher=better)"
+    year: 2026
+    source: "SHMÚ"
+    mapping_type: derived
+    quality: official
+    note: >
+      SHMU indeks kakovosti zraka je na lestvici 0=dobra/33=srednja/66=zla (visje = slabse).
+      Model pricakuje nasprotno smer (visje = boljse, 0-100). Formula: 100 - (raw/66*100).
+      Trenutna vrednost raw=66 (najslabsa kategorija) -> 100 - (66/66*100) = 0.
+
+  x51:
+    value: null
+    unit: "fraction (0-1)"
+    year: null
+    source: null
+    mapping_type: unmapped
+    quality: missing
+    note: >
+      Razpolozljiva podatka: 15 oddanih projektov/leto (participatory budget) in 18 registriranih
+      drustev (KPSS) - oba sta absolutna stevila brez ustreznega imenovalca/benchmarka za
+      normiranje na 0-1. Prejsnje % vrednosti (15%, 32%) so bile preverjene kot napacne
+      (svidnik.sk ne objavlja takega odstotka). Ostaja null.
+
+  x53:
+    value: null
+    unit: "scale (0-10)"
+    year: null
+    source: null
+    mapping_type: unmapped
+    quality: missing
+    note: >
+      KPSS anketa (Neighbourhood cohesion) daje samo opisne podatke (deleze problemov: domača
+      nega 18.26%, priprava obrokov 17.31%, itd.), ne pa numericne ocene 'sense of belonging'
+      na lestvici 0-10. Ostaja null.
+
+  x55:
+    value: 0.2764
+    unit: "fraction (0-1)"
+    year: 2023
+    source: "KPSS Svidník 2023-2030, kap.7.1 + Tab.9 (SOCIOKLUB metodologija)"
+    mapping_type: derived
+    quality: official
+    note: >
+      Formula: trenutna kapaciteta domace nege / ocenjena potreba = 34 / 123 = 0.2764.
+      Zamenjuje prejsnji proxy 'stevilo strank' brez imenovalca.
+
+  x66:
+    value: null
+    unit: "fraction (0-1)"
+    year: null
+    source: null
+    mapping_type: unmapped
+    quality: missing
+    note: >
+      Razpolozljiv podatek je opisen/dvopomenski ('Under construction / Adequate') brez jasne
+      pretvorbene lestvice. Ostaja null.

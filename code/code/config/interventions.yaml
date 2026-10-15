@@ -1,0 +1,377 @@
+x11:
+  name: "Multigenerational households"
+  interventions:
+    - "Support housing models that enable multigenerational living."
+    - "Provide incentives for home adaptations for intergenerational households."
+    - "Develop local mediation and advisory services for family co-living arrangements."
+    - "Encourage planning policies that allow accessory dwelling units or flexible family housing."
+    - "Create municipal grants for age-friendly family housing upgrades."
+
+x12:
+  name: "Population 65+"
+  interventions:
+    - "Develop an active ageing strategy tailored to the needs of older residents."
+    - "Expand age-friendly public services and community participation programs."
+    - "Increase access to preventive health, mobility, and social support for older adults."
+    - "Use demographic forecasting in local planning and service design."
+    - "Create programs that retain and attract older residents while supporting healthy ageing."
+
+x13:
+  name: "Old age dependency"
+  interventions:
+    - "Expand community-based support services to reduce pressure on families."
+    - "Increase access to preventive care and active ageing programs to preserve functional independence."
+    - "Strengthen volunteer, intergenerational, and neighbourhood support networks."
+    - "Improve accessibility of essential services to reduce care burden."
+    - "Plan long-term care and healthy ageing investments using local demographic projections."
+
+x14:
+  name: "Single-person elderly households"
+  interventions:
+    - "Establish outreach and befriending programs for older adults living alone."
+    - "Develop regular check-in systems through community workers or volunteers."
+    - "Improve access to shared meals, day centres, and neighbourhood activities."
+    - "Support co-housing and assisted independent living options."
+    - "Provide targeted transport and home support for older adults living alone."
+
+x15:
+  name: "Demographic stability"
+  interventions:
+    - "Strengthen local services and amenities that improve long-term residential attractiveness."
+    - "Support family-friendly and age-friendly housing policies."
+    - "Develop local employment and service ecosystems that reduce outmigration."
+    - "Invest in healthy public spaces and community infrastructure."
+    - "Integrate demographic resilience targets into local development planning."
+
+x16:
+  name: "Older adults living near family"
+  interventions:
+    - "Promote housing policies that enable proximity between older adults and family members."
+    - "Support mobility and digital tools that maintain family contact when co-location is not possible."
+    - "Provide incentives for family-based care arrangements."
+    - "Develop local caregiving support and respite services."
+    - "Encourage intergenerational neighbourhood planning."
+
+x21:
+  name: "Chronic disease prevalence"
+  interventions:
+    - "Expand community prevention programs focused on physical activity, nutrition, and smoking reduction."
+    - "Increase screening and early detection for major chronic conditions."
+    - "Support community walking groups and low-barrier movement programs."
+    - "Improve access to healthy food through local retail and public procurement policies."
+    - "Integrate chronic disease prevention into all local healthy ageing initiatives."
+
+x22:
+  name: "Mental distress prevalence"
+  interventions:
+    - "Develop low-threshold mental health support and counselling services."
+    - "Expand social prescribing and community referral pathways."
+    - "Increase access to group-based activities that reduce loneliness and social isolation."
+    - "Improve access to green, quiet, and restorative spaces."
+    - "Offer stress management, mindfulness, and community resilience programs."
+
+x23:
+  name: "Physically active population share"
+  interventions:
+    - "Improve walking and cycling infrastructure connected to everyday destinations."
+    - "Create free or low-cost community activity programs for all ages."
+    - "Support active transport policies for schools, workplaces, and local centres."
+    - "Develop public campaigns that normalise daily movement instead of only formal exercise."
+    - "Increase access to safe, well-lit routes and open recreational spaces."
+
+x24:
+  name: "Obesity prevalence"
+  interventions:
+    - "Improve availability and affordability of healthy food options."
+    - "Restrict unhealthy food dominance in public institutions and events."
+    - "Promote active mobility and daily movement through local design."
+    - "Implement community nutrition education and cooking programs."
+    - "Support healthy school, workplace, and community meal environments."
+
+x25:
+  name: "Preventive healthcare usage"
+  interventions:
+    - "Increase outreach for preventive screening and check-ups."
+    - "Use mobile or community-based preventive services in underserved areas."
+    - "Strengthen reminders, invitations, and navigation support for preventive care."
+    - "Integrate prevention into local events and community hubs."
+    - "Reduce practical barriers such as transport, cost, and information gaps."
+
+x26:
+  name: "Self-rated well-being"
+  interventions:
+    - "Increase access to social, cultural, and intergenerational activities."
+    - "Improve quality and accessibility of public spaces and local services."
+    - "Expand programs that support purpose, volunteering, and community contribution."
+    - "Invest in mental well-being, stress reduction, and nature-based activities."
+    - "Use regular citizen feedback to adapt local well-being policies."
+
+x31:
+  name: "Healthy local food availability"
+  interventions:
+    - "Support farmers markets, local food hubs, and healthy retail partnerships."
+    - "Encourage local shops to stock fresh fruit, vegetables, legumes, and other healthy staples."
+    - "Use municipal procurement to prioritise healthy local food."
+    - "Develop community gardens and urban/rural growing initiatives."
+    - "Create food policy partnerships that coordinate healthy food access."
+
+x32:
+  name: "Healthy food affordability"
+  interventions:
+    - "Support price incentives or subsidy schemes for healthy foods."
+    - "Develop coordinated purchasing networks for small retailers to lower healthy food costs."
+    - "Use public procurement and partnerships to stabilise local healthy food supply."
+    - "Promote short supply chains and local producers to reduce price barriers."
+    - "Target low-income households with healthy food support measures."
+
+x33:
+  name: "Plant-oriented diet prevalence"
+  interventions:
+    - "Increase plant-based meal options in schools, workplaces, and public institutions."
+    - "Run local campaigns promoting beans, vegetables, and plant-forward cooking."
+    - "Support cooking education and community meal programs focused on plant-based foods."
+    - "Encourage restaurants and caterers to offer plant-forward menus."
+    - "Use local food branding to make healthy traditional plant-based foods more visible."
+
+x34:
+  name: "Overeating / poor dietary control"
+  interventions:
+    - "Promote portion awareness and balanced meal design in public food settings."
+    - "Support nutrition education focused on mindful eating and meal routines."
+    - "Reduce exposure to oversized, highly processed food offers in community settings."
+    - "Encourage structured mealtime practices in schools, workplaces, and care settings."
+    - "Integrate healthy eating behaviour support into local prevention programs."
+
+x35:
+  name: "Nutritional vulnerability"
+  interventions:
+    - "Identify and support nutritionally at-risk groups through local outreach."
+    - "Expand meal support, shared meals, and community food assistance programs."
+    - "Improve access to healthy food for older adults, low-income households, and remote residents."
+    - "Coordinate health, social care, and food access services."
+    - "Provide targeted counselling on nutrition for vulnerable groups."
+
+x36:
+  name: "Spatial access to healthy food"
+  interventions:
+    - "Improve proximity of healthy food outlets to residential areas."
+    - "Support mobile markets or delivery solutions in poorly served areas."
+    - "Locate fresh food outlets near public transport and walkable centres."
+    - "Use planning tools to reduce healthy food deserts."
+    - "Improve pedestrian and cycling access to food shops and markets."
+
+x41:
+  name: "Green space per capita"
+  interventions:
+    - "Create new public parks and green areas."
+    - "Convert vacant or underused land into green community spaces."
+    - "Increase tree planting and shade in public areas."
+    - "Develop community gardens and pocket parks."
+    - "Protect and expand existing green infrastructure in planning decisions."
+
+x42:
+  name: "Walking/recreation path density"
+  interventions:
+    - "Expand the local network of walking and recreation paths."
+    - "Connect isolated paths into continuous activity-friendly routes."
+    - "Upgrade maintenance, lighting, and wayfinding on existing paths."
+    - "Provide benches, shade, and rest points along longer routes."
+    - "Prioritise paths linking homes to services, parks, and community destinations."
+
+x43:
+  name: "Access to nature"
+  interventions:
+    - "Improve physical access to parks, trails, waterfronts, and natural areas."
+    - "Develop nature-based programs for older adults and families."
+    - "Remove physical and informational barriers to nearby natural spaces."
+    - "Integrate small natural elements into neighbourhoods with limited green space."
+    - "Use planning policy to preserve and enhance everyday access to nature."
+
+x44:
+  name: "Air quality"
+  interventions:
+    - "Reduce traffic-related emissions through active and public transport policies."
+    - "Increase urban greening and tree cover where appropriate."
+    - "Limit pollution sources near homes, schools, and care facilities."
+    - "Promote cleaner heating and energy systems."
+    - "Monitor air quality and target hotspots with local mitigation measures."
+
+x45:
+  name: "Water quality"
+  interventions:
+    - "Upgrade drinking water monitoring and infrastructure maintenance."
+    - "Reduce local contamination risks from wastewater, runoff, and agriculture."
+    - "Protect local water sources through land-use controls."
+    - "Improve public communication on water quality and safety."
+    - "Integrate water quality resilience into local environmental planning."
+
+x46:
+  name: "Outdoor safety and comfort"
+  interventions:
+    - "Improve lighting, seating, shade, and shelter in public spaces."
+    - "Reduce traffic speed and conflict points in pedestrian areas."
+    - "Upgrade path surfaces and remove environmental hazards."
+    - "Increase passive surveillance and inclusive design in public spaces."
+    - "Design outdoor areas for comfort across ages and mobility levels."
+
+x51:
+  name: "Community participation"
+  interventions:
+    - "Increase the number and diversity of local community events and activities."
+    - "Support neighbourhood groups, clubs, and volunteer initiatives."
+    - "Reduce participation barriers through accessible venues, timing, and transport."
+    - "Use participatory planning to involve residents in local decision-making."
+    - "Create targeted invitations and outreach for underrepresented groups."
+
+x52:
+  name: "Social isolation"
+  interventions:
+    - "Establish befriending, buddy, and neighbour check-in programs."
+    - "Expand community groups and support circles for isolated residents."
+    - "Improve transport and digital inclusion to reduce barriers to connection."
+    - "Use health and social services to identify and refer isolated individuals."
+    - "Create age-friendly, welcoming local meeting spaces."
+
+x53:
+  name: "Sense of belonging"
+  interventions:
+    - "Strengthen community identity through regular local events and rituals."
+    - "Create inclusive spaces where residents can meet and contribute."
+    - "Support resident-led projects that build ownership and local pride."
+    - "Promote volunteering and civic engagement opportunities."
+    - "Use community storytelling, heritage, and intergenerational activities to reinforce belonging."
+
+x54:
+  name: "Stress / burnout"
+  interventions:
+    - "Increase access to restorative public spaces and quiet green areas."
+    - "Develop local stress reduction, mindfulness, and relaxation programs."
+    - "Encourage community routines that include rest, pause, and social connection."
+    - "Improve work-life and caregiver support through local services."
+    - "Integrate mental well-being into community health strategies."
+
+x55:
+  name: "Support service availability"
+  interventions:
+    - "Expand community-based support and navigation services."
+    - "Improve coordination between health, social care, and voluntary services."
+    - "Use one-stop local hubs for advice, support, and referral."
+    - "Develop mobile or outreach services for harder-to-reach residents."
+    - "Increase visibility and awareness of available support services."
+
+x56:
+  name: "Informal social contact frequency"
+  interventions:
+    - "Create more informal meeting opportunities in neighbourhood spaces."
+    - "Support regular shared meals, coffee mornings, and drop-in activities."
+    - "Design public spaces that encourage lingering and casual encounters."
+    - "Promote intergenerational and neighbourhood-based programs."
+    - "Activate underused local venues as social gathering points."
+
+x61:
+  name: "Walkability index"
+  interventions:
+    - "Improve sidewalk quality, continuity, and accessibility."
+    - "Expand pedestrian priority zones in local centres."
+    - "Reduce traffic speed and improve crossing safety."
+    - "Connect walking routes to everyday destinations such as shops, parks, and services."
+    - "Improve lighting, signage, and comfort along walking routes."
+
+x62:
+  name: "Cycling infrastructure density"
+  interventions:
+    - "Expand safe, connected cycling routes."
+    - "Provide protected cycling infrastructure where feasible."
+    - "Improve bicycle parking at key destinations."
+    - "Link cycling routes with schools, services, parks, and transit."
+    - "Support low-threshold cycling promotion programs for different age groups."
+
+x63:
+  name: "Public transport accessibility"
+  interventions:
+    - "Improve frequency, coverage, and reliability of local public transport."
+    - "Locate stops near homes, services, and community destinations."
+    - "Upgrade stops for safety, comfort, and accessibility."
+    - "Integrate transport planning with healthy ageing and inclusion goals."
+    - "Offer targeted mobility support for people with higher access barriers."
+
+x64:
+  name: "Walking access to services"
+  interventions:
+    - "Cluster essential services within walkable local centres."
+    - "Improve pedestrian routes between homes and key services."
+    - "Use planning tools to reduce distance to shops, health care, and community amenities."
+    - "Prioritise mixed-use development in existing centres."
+    - "Add benches, crossings, and shade on routes used by older adults."
+
+x65:
+  name: "Accessibility for older/vulnerable groups"
+  interventions:
+    - "Apply universal design principles to public spaces and services."
+    - "Remove physical barriers on streets, paths, and in buildings."
+    - "Improve step-free access, seating, handrails, and clear signage."
+    - "Co-design accessibility upgrades with older adults and vulnerable groups."
+    - "Audit local infrastructure regularly for accessibility gaps."
+
+x66:
+  name: "Safe active mobility routes share"
+  interventions:
+    - "Prioritise safe walking and cycling routes in local transport planning."
+    - "Separate active mobility from high-risk traffic where possible."
+    - "Improve crossings, visibility, and route maintenance."
+    - "Use traffic calming in residential and school areas."
+    - "Monitor route safety and user experience, especially for older adults."
+
+x71:
+  name: "Local healthy food economy strength"
+  interventions:
+    - "Support local producers, cooperatives, and short food supply chains."
+    - "Create or strengthen food policy partnerships and local food networks."
+    - "Use public procurement to anchor demand for healthy local food."
+    - "Support infrastructure for storage, distribution, and local food retail."
+    - "Promote local healthy food branding and market access."
+
+x72:
+  name: "Availability of local providers/services"
+  interventions:
+    - "Protect and expand essential local services in community centres."
+    - "Support mixed-use centres that keep services close to residents."
+    - "Use incentives to retain key providers in underserved areas."
+    - "Coordinate service mapping and identify local access gaps."
+    - "Encourage multi-service hubs that combine health, social, and community functions."
+
+x73:
+  name: "Public investment in health/well-being"
+  interventions:
+    - "Increase dedicated local budgets for health, well-being, and healthy ageing."
+    - "Prioritise preventive and community-based investments."
+    - "Use cross-sector budgeting for environment, mobility, and social connection."
+    - "Target investment to communities with the greatest health and access gaps."
+    - "Monitor outcomes of health-promoting investments over time."
+
+x74:
+  name: "Healthy living programs availability"
+  interventions:
+    - "Expand local programs for movement, nutrition, stress reduction, and purpose."
+    - "Provide low-threshold, low-cost programs across different age groups."
+    - "Use community venues, schools, and workplaces as delivery platforms."
+    - "Coordinate programs across health, sport, culture, and social sectors."
+    - "Regularly evaluate participation and adapt programs to local needs."
+
+x75:
+  name: "Community infrastructure availability"
+  interventions:
+    - "Invest in multifunctional community centres and neighbourhood hubs."
+    - "Upgrade public spaces to support gatherings, events, and everyday interaction."
+    - "Ensure infrastructure supports older adults, families, and vulnerable groups."
+    - "Activate underused buildings and spaces for community use."
+    - "Distribute infrastructure fairly across neighbourhoods and settlements."
+
+x76:
+  name: "Affordability of essential services"
+  interventions:
+    - "Reduce cost barriers to transport, recreation, and community participation."
+    - "Use subsidies or targeted support for low-income households."
+    - "Bundle essential services through local support programs."
+    - "Monitor affordability gaps across population groups."
+    - "Integrate affordability criteria into local service planning."

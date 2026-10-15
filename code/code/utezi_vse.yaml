@@ -1,0 +1,114 @@
+# L1 weights
+
+stevilo_prebivalcev_1_julij_indeks: 0.02
+stevilo_moskih_1_julij_indeks: 0.01
+stevilo_zensk_1_julij_indeks: 0.01
+delez_prebivalcev_0_14_let_1_januar: 0.06
+delez_prebivalcev_15_64_let_1_januar: 0.06
+delez_prebivalcev_65_plus_1_januar: 0.10
+gostota_naseljenosti_1_julij_indeks: 0.05
+naravni_prirast_indeks: 0.05
+skupni_prirast_indeks: 0.05
+stevilo_zivorojenih_indeks: 0.02
+zivorojeni_na_1000_prebivalcev_indeks: 0.05
+stevilo_umrlih_indeks: 0.02
+umrli_na_1000_prebivalcev_indeks: 0.07
+naravni_prirast_na_1000_prebivalcev_indeks: 0.07
+skupni_selitveni_prirast_na_1000_prebivalcev_indeks: 0.06
+skupni_prirast_na_1000_prebivalcev_indeks: 0.05
+povprecna_starost_prebivalcev_indeks: 0.08
+indeks_staranja_indeks: 0.10
+indeks_staranja_za_moske_indeks: 0.04
+indeks_staranja_za_zenske_indeks: 0.03
+
+
+# L2 weights
+prekomerna_prehranjenost_odraslih: 0.05
+prekomerna_prehranjenost_otrok_in_mladostnikov: 0.04
+prevalenca_uporabnikov_marihuane: 0.015
+redni_in_obcasni_kadilci: 0.05
+visokotvegano_opijanje: 0.04
+telesni_fitnes_otrok_indeks: 0.04
+umivanje_zob: 0.02
+precepljenost_proti_okuzbam_s_hpv: 0.02
+precepljenost_proti_pnevmokokom: 0.015
+precepljenost_proti_omr: 0.015
+precepljenost_proti_dtp_hib_ipv_hepb: 0.015
+samoocena_dobrega_zdravja: 0.06
+bolniska_odsotnost_indeks: 0.03
+astma_pri_otrocih_in_mladostnikih_0_19_let_indeks: 0.02
+bolezni_neposredno_pripisljive_alkoholu_15_let_in_vec_indeks: 0.03
+prejemniki_zdravil_zaradi_sladkorne_bolezni_indeks: 0.035
+prejemniki_zdravil_zaradi_povisanega_krvnega_tlaka_indeks: 0.035
+prejemniki_zdravil_proti_strjevanju_krvi_indeks: 0.02
+srcna_kap_35_74_let_indeks: 0.035
+mozganska_kap_35_84_let_indeks: 0.03
+novi_primeri_raka_indeks: 0.04
+novi_primeri_raka_debelega_crevesja_in_danke_indeks: 0.015
+novi_primeri_raka_pljuc_indeks: 0.015
+novi_primeri_raka_dojke_indeks: 0.015
+novi_primeri_malignega_melanoma_indeks: 0.01
+novi_primeri_raka_zelodca_indeks: 0.01
+prejemniki_zdravil_zaradi_dusevnih_motenj_indeks: 0.035
+oviranost_pri_skrbi_zase: 0.03
+zlomi_kolka_pri_starejsih_prebivalcih_65_let_in_vec_indeks: 0.025
+klopni_meningoencefalitis_indeks: 0.01
+splosna_umrljivost_po_stalnem_bivaliscu_indeks: 0.04
+umrljivost_zaradi_bolezni_srca_in_ozilja_0_74_let_indeks: 0.03
+umrljivost_zaradi_vseh_vrst_raka_0_74_let_indeks: 0.03
+umrljivost_zaradi_raka_debelega_crevesja_0_74_let_indeks: 0.01
+umrljivost_zaradi_raka_dojke_0_74_let_indeks: 0.01
+umrljivost_zaradi_pljucnega_raka_indeks: 0.01
+umrljivost_zaradi_samomora_indeks: 0.02
+
+
+# L4 weights
+dostop_do_rekreacijskih_povrsin: 0.24
+hrupno_okolje: 0.18
+mikrobioloska_kakovost_pitne_vode: 0.18
+stevilo_stanovanj_1_januar_indeks: 0.04
+stanovanja_na_1000_prebivalcev_indeks: 0.08
+tri_ali_vec_sobna_stanovanja_indeks: 0.07
+povprecna_uporabna_povrsina_stanovanj_indeks: 0.08
+komunalni_odpadki_indeks: 0.05
+komunalni_odpadki_kg_na_prebivalca_indeks: 0.08
+
+# L5 weights
+sodelovanje_pri_odlocitvah_skupnosti: 0.18
+sosedska_povezanost: 0.22
+vkljucenost_otrok_v_vrtce_1_5_let: 0.10
+stevilo_vrtcev_indeks: 0.06
+stevilo_otrok_v_vrtcih_po_izvajalcu_predšolske_vzgoje_indeks: 0.06
+stevilo_sol_indeks: 0.06
+stevilo_ucencev_v_osnovnih_solah_indeks: 0.06
+stevilo_dijakov_po_prebivaliscu_indeks: 0.06
+stevilo_studentov_po_prebivaliscu_indeks: 0.05
+stevilo_studentov_na_1000_prebivalcev_indeks: 0.05
+stevilo_diplomantov_na_1000_prebivalcev_indeks: 0.04
+
+
+# L6 weights
+dostop_do_varnih_kolesarskih_in_sprehajalnih_poti: 0.35
+poskodovani_v_transportnih_nezgodah_indeks: 0.20
+prometne_nezgode_z_alkoholiziranimi_povzrocitelji: 0.15
+stevilo_osebnih_avtomobilov_31_december_indeks: 0.08
+osebni_avtomobili_na_1000_prebivalcev_indeks: 0.12
+povprecna_starost_osebnih_avtomobilov_indeks: 0.10
+
+
+# L7 weights
+odzivnost_v_program_svit: 0.08
+presejanost_v_programu_zora: 0.08
+presejanost_v_programu_dora: 0.08
+pomoc_na_domu: 0.10
+stopnja_delovne_aktivnosti_indeks: 0.08
+stevilo_delovno_aktivnih_prebivalcev_po_prebivaliscu_indeks: 0.05
+stevilo_delovno_aktivnih_prebivalcev_po_delovnem_mestu_indeks: 0.05
+stevilo_zaposlenih_oseb_po_delovnem_mestu_indeks: 0.05
+stevilo_samozaposlenih_oseb_po_delovnem_mestu_indeks: 0.04
+povprecna_mesecna_bruto_placa_indeks: 0.06
+povprecna_mesecna_neto_placa_indeks: 0.06
+povprecna_mesecna_bruto_placa_indeks_si_100: 0.04
+povprecna_mesecna_neto_placa_indeks_si_100: 0.04
+stevilo_podjetij_indeks: 0.04
+prihodek_podjetij_indeks: 0.05

@@ -1,0 +1,69 @@
+walkability_package:
+  name: "Walkability upgrade package"
+  description: "Improves pedestrian accessibility, route safety, and walkable access to services."
+  affected_indicators:
+    x61:
+      mode: "relative"
+      value: 0.10
+    x64:
+      mode: "relative"
+      value: 0.08
+    x66:
+      mode: "relative"
+      value: 0.12
+
+healthy_food_package:
+  name: "Healthy food access package"
+  description: "Improves local availability, affordability, and spatial access to healthy food."
+  affected_indicators:
+    x31:
+      mode: "relative"
+      value: 0.10
+    x32:
+      mode: "relative"
+      value: 0.08
+    x36:
+      mode: "relative"
+      value: 0.10
+
+social_connection_package:
+  name: "Social connection strengthening package"
+  description: "Improves participation, reduces isolation, and increases informal social contact."
+  affected_indicators:
+    x51:
+      mode: "relative"
+      value: 0.12
+    x52:
+      mode: "relative"
+      value: -0.10
+    x56:
+      mode: "relative"
+      value: 0.12
+
+green_space_package:
+  name: "Green and restorative environment package"
+  description: "Improves green space, access to nature, and outdoor comfort."
+  affected_indicators:
+    x41:
+      mode: "relative"
+      value: 0.12
+    x43:
+      mode: "relative"
+      value: 0.10
+    x46:
+      mode: "relative"
+      value: 0.08
+
+active_ageing_package:
+  name: "Active ageing and family support package"
+  description: "Strengthens support services, accessibility, and older adults’ proximity to family support."
+  affected_indicators:
+    x16:
+      mode: "relative"
+      value: 0.08
+    x55:
+      mode: "relative"
+      value: 0.12
+    x65:
+      mode: "relative"
+      value: 0.10

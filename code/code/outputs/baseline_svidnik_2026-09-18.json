@@ -1,0 +1,389 @@
+{
+  "pilot_code": "svidnik",
+  "pilot_name": "Svidník (Slovakia) - BLUETWIN-CE pilot",
+  "data_version": "2026-09-18",
+  "raw_values": {
+    "x12": 0.2489,
+    "x13": 0.389,
+    "x14": 0.38,
+    "x15": -0.1585,
+    "x21": 0.0012,
+    "x24": 0.587,
+    "x26": null,
+    "x31": null,
+    "x36": null,
+    "x41": null,
+    "x43": 0.8,
+    "x44": 0.0,
+    "x51": null,
+    "x53": null,
+    "x55": 0.2764,
+    "x66": null
+  },
+  "normalized_indicators": {
+    "x11": null,
+    "x12": 0.2489,
+    "x13": 0.8055,
+    "x14": 0.62,
+    "x15": 0.10375000000000002,
+    "x16": null,
+    "x21": 0.9988,
+    "x22": null,
+    "x23": null,
+    "x24": 0.41300000000000003,
+    "x25": null,
+    "x26": null,
+    "x31": null,
+    "x32": null,
+    "x33": null,
+    "x34": null,
+    "x35": null,
+    "x36": null,
+    "x41": null,
+    "x42": null,
+    "x43": 0.8,
+    "x44": 0.0,
+    "x45": null,
+    "x46": null,
+    "x51": null,
+    "x52": null,
+    "x53": null,
+    "x54": null,
+    "x55": 0.2764,
+    "x56": null,
+    "x61": null,
+    "x62": null,
+    "x63": null,
+    "x64": null,
+    "x65": null,
+    "x66": null,
+    "x71": null,
+    "x72": null,
+    "x73": null,
+    "x74": null,
+    "x75": null,
+    "x76": null
+  },
+  "layer_scores": {
+    "L1": 0.49929807692307693,
+    "L2": 0.7644799999999999,
+    "L3": 0,
+    "L4": 0.44999999999999996,
+    "L5": 0.2764,
+    "L6": 0,
+    "L7": 0
+  },
+  "power9_scores": {
+    "P1": 0.2308125423076923,
+    "P2": 0.26849401538461537,
+    "P3": 0.40916374230769226,
+    "P4": 0.21389796153846152,
+    "P5": 0.12481218076923077,
+    "P6": 0.23776534230769228,
+    "P7": 0.24112493076923078,
+    "P8": 0.29567174615384617,
+    "P9": 0.2472580923076923
+  },
+  "bz_index": 0.25211117262436156,
+  "validation_warnings": [
+    "Sloj 'L3' (Nutritional Access & Patterns): nizka pokritost podatkov (0%) - manjka vecina indikatorjev v tem sloju.",
+    "Sloj 'L4' (Physical Environment): nizka pokritost podatkov (32%) - manjka vecina indikatorjev v tem sloju.",
+    "Sloj 'L5' (Social & Community Dynamics): nizka pokritost podatkov (10%) - manjka vecina indikatorjev v tem sloju.",
+    "Sloj 'L6' (Mobility & Accessibility): nizka pokritost podatkov (0%) - manjka vecina indikatorjev v tem sloju.",
+    "Sloj 'L7' (Economic & Local Resource Factors): nizka pokritost podatkov (0%) - manjka vecina indikatorjev v tem sloju."
+  ],
+  "recommendations": [
+    {
+      "indicator_id": "x55",
+      "indicator_name": "Support service availability",
+      "layer_id": "L5",
+      "layer_name": "Social & Community Dynamics",
+      "normalized_value": 0.2764,
+      "indicator_weight": 0.1,
+      "layer_score": 0.2764,
+      "total_priority": 0.019858799998014123,
+      "power9_links": [
+        {
+          "power9_id": "P1",
+          "power9_name": "Move Naturally",
+          "layer_weight": 0.05,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P2",
+          "power9_name": "Purpose",
+          "layer_weight": 0.34,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P3",
+          "power9_name": "Down Shift",
+          "layer_weight": 0.3,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P4",
+          "power9_name": "80% Rule",
+          "layer_weight": 0.03,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P5",
+          "power9_name": "Plant Slant",
+          "layer_weight": 0.03,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P6",
+          "power9_name": "Wine @ 5",
+          "layer_weight": 0.43,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P7",
+          "power9_name": "Belong",
+          "layer_weight": 0.46,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P8",
+          "power9_name": "Loved Ones First",
+          "layer_weight": 0.34,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P9",
+          "power9_name": "Right Tribe",
+          "layer_weight": 0.49,
+          "bz_weight": 0.1111111111
+        }
+      ],
+      "interventions": [
+        "Expand community-based support and navigation services.",
+        "Improve coordination between health, social care, and voluntary services.",
+        "Use one-stop local hubs for advice, support, and referral.",
+        "Develop mobile or outreach services for harder-to-reach residents.",
+        "Increase visibility and awareness of available support services."
+      ]
+    },
+    {
+      "indicator_id": "x44",
+      "indicator_name": "Air quality",
+      "layer_id": "L4",
+      "layer_name": "Physical Environment",
+      "normalized_value": 0.0,
+      "indicator_weight": 0.14,
+      "layer_score": 0.44999999999999996,
+      "total_priority": 0.01368888888752,
+      "power9_links": [
+        {
+          "power9_id": "P1",
+          "power9_name": "Move Naturally",
+          "layer_weight": 0.33,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P2",
+          "power9_name": "Purpose",
+          "layer_weight": 0.03,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P3",
+          "power9_name": "Down Shift",
+          "layer_weight": 0.25,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P4",
+          "power9_name": "80% Rule",
+          "layer_weight": 0.01,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P5",
+          "power9_name": "Plant Slant",
+          "layer_weight": 0.01,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P6",
+          "power9_name": "Wine @ 5",
+          "layer_weight": 0.18,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P7",
+          "power9_name": "Belong",
+          "layer_weight": 0.03,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P8",
+          "power9_name": "Loved Ones First",
+          "layer_weight": 0.02,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P9",
+          "power9_name": "Right Tribe",
+          "layer_weight": 0.02,
+          "bz_weight": 0.1111111111
+        }
+      ],
+      "interventions": [
+        "Reduce traffic-related emissions through active and public transport policies.",
+        "Increase urban greening and tree cover where appropriate.",
+        "Limit pollution sources near homes, schools, and care facilities.",
+        "Promote cleaner heating and energy systems.",
+        "Monitor air quality and target hotspots with local mitigation measures."
+      ]
+    },
+    {
+      "indicator_id": "x15",
+      "indicator_name": "Demographic stability",
+      "layer_id": "L1",
+      "layer_name": "Demographic Data",
+      "normalized_value": 0.10375000000000002,
+      "indicator_weight": 0.1,
+      "layer_score": 0.49929807692307693,
+      "total_priority": 0.009559999999044003,
+      "power9_links": [
+        {
+          "power9_id": "P1",
+          "power9_name": "Move Naturally",
+          "layer_weight": 0.03,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P2",
+          "power9_name": "Purpose",
+          "layer_weight": 0.2,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P3",
+          "power9_name": "Down Shift",
+          "layer_weight": 0.03,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P4",
+          "power9_name": "80% Rule",
+          "layer_weight": 0.02,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P5",
+          "power9_name": "Plant Slant",
+          "layer_weight": 0.01,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P6",
+          "power9_name": "Wine @ 5",
+          "layer_weight": 0.03,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P7",
+          "power9_name": "Belong",
+          "layer_weight": 0.14,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P8",
+          "power9_name": "Loved Ones First",
+          "layer_weight": 0.34,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P9",
+          "power9_name": "Right Tribe",
+          "layer_weight": 0.16,
+          "bz_weight": 0.1111111111
+        }
+      ],
+      "interventions": [
+        "Strengthen local services and amenities that improve long-term residential attractiveness.",
+        "Support family-friendly and age-friendly housing policies.",
+        "Develop local employment and service ecosystems that reduce outmigration.",
+        "Invest in healthy public spaces and community infrastructure.",
+        "Integrate demographic resilience targets into local development planning."
+      ]
+    },
+    {
+      "indicator_id": "x12",
+      "indicator_name": "Population 65+",
+      "layer_id": "L1",
+      "layer_name": "Demographic Data",
+      "normalized_value": 0.2489,
+      "indicator_weight": 0.1,
+      "layer_score": 0.49929807692307693,
+      "total_priority": 0.008011733332532163,
+      "power9_links": [
+        {
+          "power9_id": "P1",
+          "power9_name": "Move Naturally",
+          "layer_weight": 0.03,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P2",
+          "power9_name": "Purpose",
+          "layer_weight": 0.2,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P3",
+          "power9_name": "Down Shift",
+          "layer_weight": 0.03,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P4",
+          "power9_name": "80% Rule",
+          "layer_weight": 0.02,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P5",
+          "power9_name": "Plant Slant",
+          "layer_weight": 0.01,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P6",
+          "power9_name": "Wine @ 5",
+          "layer_weight": 0.03,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P7",
+          "power9_name": "Belong",
+          "layer_weight": 0.14,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P8",
+          "power9_name": "Loved Ones First",
+          "layer_weight": 0.34,
+          "bz_weight": 0.1111111111
+        },
+        {
+          "power9_id": "P9",
+          "power9_name": "Right Tribe",
+          "layer_weight": 0.16,
+          "bz_weight": 0.1111111111
+        }
+      ],
+      "interventions": [
+        "Develop an active ageing strategy tailored to the needs of older residents.",
+        "Expand age-friendly public services and community participation programs.",
+        "Increase access to preventive health, mobility, and social support for older adults.",
+        "Use demographic forecasting in local planning and service design.",
+        "Create programs that retain and attract older residents while supporting healthy ageing."
+      ]
+    }
+  ]
+}
